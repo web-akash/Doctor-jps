@@ -123,31 +123,52 @@ margin-right: 15px;
 
 
 /*tarif respnsive part start */
-.tariff_head h4 {
-	font-size: 17px;
+.tarif_box_main{
+  display: flex;
+  flex-direction: column;
 }
-.tariff_f {
-	margin-left: 100px;
-	margin-top: 150px;
+.tarif_box_text{
+  width: 100%;
 }
-.table td{
-  display: block;
+.tarif_box_num{
+  width: 100%;
 }
-.table-left, .table-right {
-	width: 100%;
+.tarif_box_children {
+  padding: 40px 15px;
 }
-.tariff_left_icon {
-	margin-left: 640px;
-	margin-top: 15px;
+.tarif_box_st a {
+  font-size: 13px;
 }
-.table-btn a {
-	font-size: 12px;
-	padding: 5px 20px 4px;
+.tarif_ki1 {
+	padding: 50px 15px;
+	display: block;
 }
-
-
+.tariff_hand h3 {
+	font-size: 15px;
+}
+.tarif_box_text{
+  border-bottom: 1px solid var(--border2-color);
+}
 /*tarif respnsive part start */
 
+
+/*contact page responsive start */
+.contact_num ul .florItem_num::before {
+	display: none;
+}
+.contact_num ul .florItem_num::after {
+	display: none;
+}
+.contact_form {
+	padding: 40px 10px;
+}
+.form_input input {
+	padding: 5px 15px;
+}
+.florItem_ttl h6 {
+	font-size: 14px;
+}
+/*contact page responsive end */
 
 
 
@@ -462,35 +483,89 @@ nav .logo img {
 
 
 
+/*doctor info responsive start */
+.product_header {
+	padding-top: 10px;
+}
+.about_img_2 img {
+	float:left;
+}
+#Arrolie_Clinic {
+	padding: 45px 0;
+}
+.arrolie_clinic_main {
+	padding: 45px 10px;
+}
+#gallery_part {
+	padding: 20px 0;
+}
+.gal_img img {
+	width: 100%;
+}
+
+.image_sm {
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+}
+
+/*doctor info responsive end */
 
 
 
 
 
 
-  .table td{
+  /*tariff page responsive start */
+  .tarif_box_main{
+    display: flex;
+    flex-direction: column;
+  }
+  .tarif_box_text{
+    width: 100%;
+  }
+  .tarif_box_num{
+    width: 100%;
+  }
+  .tarif_box_children {
+    padding: 40px 15px;
+  }
+  .tarif_box_st a {
+    font-size: 13px;
+  }
+  .tarif_ki1 {
+    padding: 50px 15px;
     display: block;
   }
-  .table-left{
-    width: 100%;
-  } 
-  .table-right {
-    width: 100%;
+  .tariff_hand h3 {
+    font-size: 10px;
   }
-  .tariff_f {
-    margin-left: 421px;
-    margin-top: 5px;
-  }
-  .table-btn a {
-    font-size: 12px;
-    padding: 5px 20px 4px;
-  }
-  .tariff_left_icon {
-    margin-left: 403px;
+  .tarif_box_text{
+    border-bottom: 1px solid var(--border2-color);
   }
   /*tariff page responsive end */
   
   
+/*contact page responsive start */
+.contact_num ul .florItem_num::before {
+	right: 160px;
+}
+.contact_num ul .florItem_num::after {
+  left:160px;
+}
+.contact_form {
+	padding: 40px 20px;
+}
+.form_input input {
+	padding: 5px 15px;
+}
+.florItem_ttl h6 {
+	font-size: 14px;
+}
+/*contact page responsive end */
+
 
 
 
@@ -804,54 +879,108 @@ nav .logo img {
 
 
 
-
-/*tariff page responsive start */
-.tariff_head h2 {
-	font-size: 2rem;
+/*doctor info responsive start */
+.product_header {
+	padding-top: 10px;
 }
-.tariff_head p {
-	font-size: 11px;
-	padding: 12px 4px;
+.about_img_2 img {
+	float:left;
 }
-
-.tariff_f {
-	margin-left: 285px;
-	margin-top: -10px;
+#Arrolie_Clinic {
+	padding: 45px 0;
 }
-
-
-.tariff_head h4 {
-	font-size: 18px;
-	margin-top: 25px;
+.arrolie_clinic_main {
+	padding: 45px 10px;
 }
-
-
-/* 
-tr {
-  display: table-row;
-  vertical-align: inherit;
-  border-color: inherit;
-} */
-.table td{
-  display: block;
+#gallery_part {
+	padding: 20px 0;
 }
-.table-left, .table-right {
+.gal_img img {
 	width: 100%;
 }
 
-.tariff_left_icon {
-	margin-left: 220px;
-	margin-top: 20px;
+.image_sm {
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
 }
 
-.table-btn a {
-	font-size: 12px;
-	padding: 5px 20px 4px;
+/*doctor info responsive end */
+
+
+/* treatment page responsive start */
+
+.gany_pic {
+	width: 25%;
+}
+.gany_part {
+	padding: 40px 20px;
+}
+.gany_text_1 {
+	padding: 30px 10px;
+}
+.gany_text_2 {
+	padding: 30px 10px;
+}
+
+/* treatment page responsive end */
+
+
+
+/*tariff page responsive start */
+.tarif_flex {
+	display: block;
+}
+.tarif_box_main{
+  display: flex;
+  flex-direction: column;
+}
+.tarif_box_text{
+  width: 100%;
+}
+.tarif_box_num{
+  width: 100%;
+}
+.tarif_box_children {
+  padding: 40px 15px;
+}
+.tarif_box_st a {
+  font-size: 13px;
+}
+.tarif_ki1 {
+	padding: 50px 15px;
+	display: block;
+}
+.tariff_hand h3 {
+	font-size: 10px;
+}
+.tarif_box_text{
+  border-bottom: 1px solid var(--border2-color);
 }
 /*tariff page responsive end */
 
 
 
+
+/*contact page responsive start */
+.contact_num ul .florItem_num::before {
+	display: none;
+}
+.contact_num ul .florItem_num::after {
+	display: none;
+}
+.contact_form {
+	padding: 40px 10px;
+}
+.form_input input {
+	padding: 5px 15px;
+}
+.florItem_ttl h6 {
+	font-size: 14px;
+}
+/*contact page responsive end */
 
 
 
@@ -901,6 +1030,13 @@ nav .logo img {
   top:0;
   position: fixed;
 }
+.button_single a {
+	font-size: 8px;
+}
+#Alorie_part {
+	padding: 25px 0;
+}
+
 /* 
 .navbar {
 	margin-top: -100px;
@@ -1163,7 +1299,22 @@ nav .logo img {
 /* doctorintero section responsive  part start */
 
 /* image and text section responsive part start */
-
+.product_header {
+	padding-top: 15px;
+}
+#doctorsIntroHeroSection {
+	padding: 100px 0;
+}
+.product_img img {
+	padding-bottom: 40px;
+}
+#image-and-text-section {
+	padding: 70px 0;
+}
+.arrolie_clinic_main {
+	padding-left: 10px;
+	padding-right: 10px;
+}
 .image_img img{
   margin-top: 30px;
 }
@@ -1190,12 +1341,19 @@ nav .logo img {
 
 
 /* gallery part section responsive part start */
-
+#gallery_part {
+	padding: 40px 0;
+}
+.gallery_img h2 {
+	font-size: 2.4rem;
+}
 .gal_img img{
   width: 100%;
   height: auto;
 }
-
+#Arrolie_Clinic {
+	padding: 80px 0;
+}
 
 /* gallery part section responsive part end */
 
@@ -1215,6 +1373,18 @@ nav .logo img {
 .gany_pic {
 	width: 25%;
 }
+.gany_part {
+	padding: 40px 20px;
+}
+.gany_text_1 {
+	padding: 30px 10px;
+}
+.gany_text_2 {
+	padding: 30px 10px;
+}
+.gany_part h5 {
+	width: 100%;
+}
 .gany_text_1 .d-flex {
 	flex-wrap: wrap;
 }
@@ -1226,6 +1396,9 @@ nav .logo img {
 .gany_text_1 {
 	margin-top: 25px;
 }
+.gany_part h2 {
+	font-size: 1.2rem;
+}
 /* treatment page responsive end */
 
 
@@ -1235,45 +1408,34 @@ nav .logo img {
 
 
 /*tariff page responsive start */
-.tariff_head h2 {
-	font-size: 2rem;
-}
-.tariff_head p {
-	font-size: 11px;
-	padding: 12px 4px;
-}
-
-.tariff_f {
-	margin-left: 285px;
-	margin-top: -10px;
-}
-
-
-.tariff_head h4 {
-	font-size: 18px;
-	margin-top: 25px;
-}
-
-
-/* 
-tr {
-  display: table-row;
-  vertical-align: inherit;
-  border-color: inherit;
-} */
-.table td{
+.tarif_flex{
   display: block;
 }
-.table-left, .table-right {
-	width: 100%;
+.tarif_box_main{
+  display: flex;
+  flex-direction: column;
 }
-.tariff_left_icon {
-	margin-left: 255px;
-	margin-top: 15px;
+.tarif_box_text{
+  width: 100%;
 }
-.table-btn a {
-	font-size: 12px;
-	padding: 5px 20px 4px;
+.tarif_box_num{
+  width: 100%;
+}
+.tarif_box_children {
+  padding: 40px 15px;
+}
+.tarif_box_st a {
+  font-size: 13px;
+}
+.tarif_ki1 {
+	padding: 50px 15px;
+	display: block;
+}
+.tariff_hand h3 {
+	font-size: 10px;
+}
+.tarif_box_text{
+  border-bottom: 1px solid var(--border2-color);
 }
 /*tariff page responsive end */
 
@@ -1284,10 +1446,27 @@ tr {
 /*consulation part responsive end*/
 
 
+/*contact page responsive start */
+.contact_num ul .florItem_num::before {
+	display: none;
+}
+.contact_num ul .florItem_num::after {
+	display: none;
+}
+.contact_form {
+	padding: 40px 10px;
+}
+.form_input input {
+	padding: 5px 15px;
+}
+.florItem_ttl h6 {
+	font-size: 14px;
+}
+/*contact page responsive end */
+
 
 
 }
-
 
 
 
