@@ -190,7 +190,9 @@ margin-right: 15px;
 	padding: 20px 10px;
 }
 
-
+.pair_parents {
+	padding: 50px 10px;
+}
 
 
 
@@ -603,7 +605,9 @@ nav .logo img {
 	padding: 20px 10px;
 }
 
-
+.pair_parents {
+	padding: 50px 10px;
+}
 
 
 
@@ -1044,6 +1048,9 @@ nav .logo img {
 
 .pair_text {
 	padding: 20px 10px;
+}
+.pair_parents {
+	padding: 50px 10px;
 }
 
 
@@ -1556,6 +1563,9 @@ nav .logo img {
 }
 .pair_text {
 	padding: 20px 10px;
+}
+.pair_parents {
+	padding: 50px 10px;
 }
 /*banner_pic  page responsive end */
 

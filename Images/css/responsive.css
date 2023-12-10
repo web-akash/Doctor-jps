@@ -1,0 +1,1666 @@
+@media(min-width:1400px){
+  .LineIcon {
+    margin-right: 10px;
+  }
+}
+@media(min-width:992px) and (max-width:1199px){
+/* navbar part */
+nav .logo img {
+	width: 80%;
+	margin-left: 20px;
+}
+nav p {
+	padding-right: 25px;
+	margin-top: 9px;
+  font-size: 9px;
+}
+nav .call {
+	font-size: 11px;
+	padding-left: 8px;
+}
+.text-call{
+  display: none;
+}
+.main-f svg{
+  margin-top: 7px;
+}
+.button-p p {
+	font-size: 9px;
+}
+.button-p {
+	min-width: 150px;
+	font-size: 1.5rem;
+	line-height: 1.4666666667;
+	min-height: 36px;
+	padding: 10px;
+  margin-right: 20px;
+}
+.LineIcon {
+	width: 30px;
+margin-right: 15px;
+}
+.hero_part {
+	padding: 200px 0 0px 0;
+	z-index: -1;
+}
+.text{
+  padding-bottom: 60px;
+}
+.text_big {
+	font-size: 37px;
+}
+.text h3 {
+	font-size: 28px;
+}
+.text h4 {
+	font-size: 22px;
+}
+.text h5 {
+	font-size: 16px;
+	line-height: 26px;
+}
+.hero_btn a {
+	font-size: 18px;
+}
+.treatment_header h2 {
+	font-size: 37px;
+}
+.reservation h2 {
+	font-size: 37px;
+}
+.consultaion_header h2 {
+	font-size: 37px;
+}
+.extra-info{
+  padding:0 10px;
+  font-size: 10px;
+}
+.consultaion_header span {
+	font-size: 11px;
+}
+.consulataion_table th {
+	font-size: 14px;
+}
+.table_color p {
+	font-size: 13px;
+}
+.table_color p span {
+	font-size: 13px;
+	line-height: 28px;
+}
+.physcho_item span {
+	font-size: 12px;
+}
+.physcho_item h5 {
+	font-size: 14px;
+}
+.physcho_item p {
+	font-size: 12px;
+	font-weight: 400;
+	font-family: "Cabin", sans-serif;
+	color: var(--secondary-color);
+	width: 90%;
+	line-height: 29px;
+}
+.product_header h2 {
+	font-size: 37px;
+}
+.product_content {
+	padding: 50px 0px 0 15px;
+}
+.product_content p {
+	font-size: 14px;
+  padding-bottom: 15px;
+}
+.product_content a {
+	font-size: 14px;
+}
+
+
+
+
+
+
+
+/*tarif respnsive part start */
+.tarif_box_main{
+  display: flex;
+  flex-direction: column;
+}
+.tarif_box_text{
+  width: 100%;
+}
+.tarif_box_num{
+  width: 100%;
+}
+.tarif_box_children {
+  padding: 40px 15px;
+}
+.tarif_box_st a {
+  font-size: 13px;
+}
+.tarif_ki1 {
+	padding: 50px 15px;
+	display: block;
+}
+.tariff_hand h3 {
+	font-size: 15px;
+}
+.tarif_box_text{
+  border-bottom: 1px solid var(--border2-color);
+}
+/*tarif respnsive part start */
+
+
+/*contact page responsive start */
+.contact_num ul .florItem_num::before {
+	display: none;
+}
+.contact_num ul .florItem_num::after {
+	display: none;
+}
+.contact_form {
+	padding: 40px 10px;
+}
+.form_input input {
+	padding: 5px 15px;
+}
+.florItem_ttl h6 {
+	font-size: 14px;
+}
+/*contact page responsive end */
+
+.banner_box {
+	width: auto;
+	display: block;
+}
+.banner_box_num {
+	width: auto;
+	padding: 5px;
+	border-bottom: 1px solid var(--secondary-color);
+}
+.banner_box_text {
+	 width: auto;
+}
+.banner_change {
+	border-bottom: transparent;
+}
+
+.banner_imtax {
+	padding: 20px 10px;
+}
+
+.pair_parents {
+	padding: 50px 10px;
+}
+
+
+
+
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /*nav part responsive*/
+  
+.button_responsive {
+	margin-top: 300px;
+}
+.banner-main .slick-list {
+	overflow: visible;
+}
+
+.hero_text {
+	position: absolute;
+	top: 206px;
+  text-align: left;
+}
+.hero_btn a {
+	display: none;
+}
+.text_big {
+	display: none;
+}
+.text h3 {
+	display: none;
+}
+
+.text h4 {
+	display: inline;
+}
+
+.text h5 {
+	display: inline;
+}
+nav .logo img {
+	width: 130px;
+}
+
+
+.navbar {
+  top:0;
+  position: fixed;
+}
+
+
+.banner_up{
+  margin-top: 100px;
+  text-align: center;
+}
+
+.banner_up a {
+	border: 1px solid black;
+	padding: 0px 16px;
+	color: #64686a;
+	font-size: 20px;
+	font-family: "Shippori Mincho B1", serif;
+}
+.banner_up h3{
+  font-size: 20px;
+  margin: 10px 0;
+  color:var(--secondary-color)
+}
+
+
+  /*nav part responsive*/
+  .boxshadow {
+    display: none;
+  }
+  .navbar {
+    display: block;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    background: #fff;
+    padding: 20px 0;
+  }
+  .navbar-brand {
+    width: 30%;
+  }
+  .logo {
+    width: 100% !important;
+  }
+  .navbar-brand a img {
+    width: 100%;
+  }
+  .button-p {
+    display: inline-block;
+    min-width: 30% !important;
+    font-size: 14px;
+    min-height: 30px;
+  }
+  .b-01,
+  .b-02 {
+    background-size: cover;
+    background-position: left;
+  }
+  .hero_btn a {
+    font-size: 18px;
+  }
+  .text_big {
+    font-size: 40px;
+  }
+  .text h3 {
+    font-size: 30px;
+  }
+  .text h4 {
+    font-size: 20px;
+  }
+  .hero_text {
+    text-align: center;
+  }
+  .hero_btn {
+    margin-bottom: 20px;
+    justify-content: center !important;
+  }
+  .text h5 {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .alori_main span {
+    font-size: 22px;
+  }
+  .alori_main p {
+    font-size: 15px;
+  }
+  .button_single a {
+    font-size: 11px;
+  }
+  .alori_main {
+    text-align: left;
+  }
+  .notice_right {
+    padding: 10px 0;
+    display: block;
+  }
+  .notice_item a {
+    padding: 3px 15px;
+  }
+  .notice_left h4 {
+    margin-top: 40px;
+  }
+  .treatment_header h2 {
+    font-size: 35px;
+  }
+  .treatment_header span {
+    font-size: 22px;
+  }
+  .treatMentOne h3 {
+    font-size: 25px;
+  }
+  .treatMent_two h3 {
+    font-size: 25px;
+  }
+  .treatMentOne p {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .treatMent_two p {
+    font-size: 15px;
+    text-align: center;
+  }
+  .treet_1btn a {
+    padding: 10px 35px;
+    font-size: 10px;
+    margin-right: 20px;
+    display: inline-block;
+  }
+  .treatMentOne {
+    padding: 30px 20px 30px 20px;
+  }
+  .treatMent_two {
+    padding: 30px 20px 30px 20px;
+  }
+  .treatment_carBottom {
+    margin: 25px 0;
+  }
+  .treatment_carBottom_one img {
+    margin-left:0px;
+  }
+  .treatment_carBottom_one p {
+    margin-bottom: 10px;
+  }
+  .treat_topmargin {
+    transform: translateY(0px);
+  }
+  .treatment_carBottom_one {
+    border: 1px solid #ddd;
+    padding: 35px 30px 40px 30px;
+    margin-bottom: 25px;
+  }
+  .treatbottoms_button a {
+    padding: 10px 41px;
+    font-size: 10px;
+    margin-right: 15px !important;
+    display: inline-block;
+  }
+  .beauty_items p {
+    text-align: center;
+  }
+  .text-right {
+    text-align: center !important;
+  }
+  .beauty_items p {
+    margin-bottom: 10px;
+  }
+  .reservation h4 {
+    margin-bottom: 15px;
+  }
+  .reservation a {
+    padding: 15px 70px;
+    font-size: 18px;
+  }
+  .reservation p {
+    font-size: 16px;
+    text-align: center;
+  }
+  .reservation span {
+    font-size: 20px;
+  }
+  .reservation h2 {
+    font-size: 35px;
+  }
+  .reservation span {
+    font-size: 16px;
+  }
+  .reservation .colorssp {
+    text-align: center;
+    font-size: 11px;
+  }
+  .consultaion_header h2 {
+    font-size: 35px;
+  }
+  .consulataion_table {
+    padding: 40px 20px;
+  }
+  .consulataion_table th {
+    padding: 20px 0;
+    font-size: 14px;
+  }
+  .consultaion_header span {
+    font-size: 12px;
+  }
+  .open {
+    height: 6px;
+    width: 6px;
+  }
+  .extra-info {
+    font-size: 12px;
+  }
+  .table_color {
+    text-align: left;
+    padding: 30px 20px;
+  }
+  .table_color p {
+    font-size: 12px;
+  }
+  .table_color p span {
+    font-size: 12px;
+  }
+  .beatuty_row {
+    margin: 0px 0px;
+  }
+  .beatuty_main {
+    padding: 30px 20px 50px 20px;
+  }
+  .physcho_item img {
+    width: 250px;
+    margin-bottom: 30px;
+  }
+  .product_content {
+    padding: 0 0 50px 0;
+  }
+  .product_content a {
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    padding: 15px 40px;
+  }
+  .physcho_item p {
+    width: 100%;
+  }
+  .extra-button {
+    right: 10%;
+  }
+  .extra-button a {
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    font-size: 30px;
+  }
+  .sidebar {
+    width: 70%;
+  }
+  .phycho_right{
+    margin-top: 30px;
+  }
+  .physcho_item {
+    margin-top: 0px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+
+
+/*doctor info responsive start */
+.product_header {
+	padding-top: 10px;
+}
+.about_img_2 img {
+	float:left;
+}
+#Arrolie_Clinic {
+	padding: 45px 0;
+}
+.arrolie_clinic_main {
+	padding: 45px 10px;
+}
+#gallery_part {
+	padding: 20px 0;
+}
+.gal_img img {
+	width: 100%;
+}
+
+.image_sm {
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+}
+
+/*doctor info responsive end */
+
+
+
+
+
+
+  /*tariff page responsive start */
+  .tarif_box_main{
+    display: flex;
+    flex-direction: column;
+  }
+  .tarif_box_text{
+    width: 100%;
+  }
+  .tarif_box_num{
+    width: 100%;
+  }
+  .tarif_box_children {
+    padding: 40px 15px;
+  }
+  .tarif_box_st a {
+    font-size: 13px;
+  }
+  .tarif_ki1 {
+    padding: 50px 15px;
+    display: block;
+  }
+  .tariff_hand h3 {
+    font-size: 10px;
+  }
+  .tarif_box_text{
+    border-bottom: 1px solid var(--border2-color);
+  }
+  /*tariff page responsive end */
+  
+  
+/*contact page responsive start */
+.contact_num ul .florItem_num::before {
+	right: 160px;
+}
+.contact_num ul .florItem_num::after {
+  left:160px;
+}
+.contact_form {
+	padding: 40px 20px;
+}
+.form_input input {
+	padding: 5px 15px;
+}
+.florItem_ttl h6 {
+	font-size: 14px;
+}
+/*contact page responsive end */
+
+.banner_box {
+	width: auto;
+	display: block;
+}
+.banner_box_num {
+	width: auto;
+	padding: 5px;
+	border-bottom: 1px solid var(--secondary-color);
+}
+.banner_box_text {
+	 width: auto;
+}
+.banner_change {
+	border-bottom: transparent;
+}
+
+
+.pair_text {
+	padding: 20px 10px;
+}
+
+.pair_parents {
+	padding: 50px 10px;
+}
+
+
+
+
+
+
+
+}
+@media (min-width: 576px) and (max-width: 768.98px) {
+  /*nav part responsive */
+  
+  .button_responsive {
+    margin-top: 215px;
+  }
+.banner-main .slick-list {
+	overflow: visible;
+}
+
+.hero_text {
+	position: absolute;
+	top: 206px;
+  text-align: left;
+}
+.hero_btn a {
+	display: none;
+}
+.text_big {
+	display: none;
+}
+.text h3 {
+	display: none;
+}
+
+.text h4 {
+	display: inline;
+}
+
+.text h5 {
+	display: inline;
+}
+nav .logo img {
+	width: 130px;
+}
+
+
+.navbar {
+  top:0;
+  position: fixed;
+}
+
+.banner_up{
+  margin-top: 100px;
+  text-align: center;
+}
+
+.banner_up a {
+	border: 1px solid black;
+	padding: 0px 16px;
+	color: #64686a;
+	font-size: 20px;
+	font-family: "Shippori Mincho B1", serif;
+}
+.banner_up h3{
+  font-size: 20px;
+  margin: 10px 0;
+  color:var(--secondary-color)
+}
+
+
+  /*nav part responsive */
+  .boxshadow {
+    display: none;
+  }
+  .navbar {
+    display: block;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    background: #fff;
+    padding: 20px 0;
+  }
+  .navbar-brand {
+    width: 30%;
+  }
+  .logo {
+    width: 100% !important;
+  }
+  .navbar-brand a img {
+    width: 100%;
+  }
+  .button-p {
+    display: inline-block;
+    min-width: 30% !important;
+    font-size: 14px;
+    min-height: 30px;
+  }
+  .b-01,
+  .b-02 {
+    background-size: cover;
+    background-position: left;
+  }
+  .hero_btn a {
+    font-size: 18px;
+  }
+  .text_big {
+    font-size: 40px;
+  }
+  .text h3 {
+    font-size: 30px;
+  }
+  .text h4 {
+    font-size: 20px;
+  }
+  .hero_text {
+    text-align: center;
+  }
+  .hero_btn {
+    margin-bottom: 20px;
+    justify-content: center !important;
+  }
+  .text h5 {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .alori_main span {
+    font-size: 22px;
+  }
+  .alori_main p {
+    font-size: 15px;
+  }
+  .button_single a {
+    font-size: 11px;
+  }
+  .alori_main {
+    text-align: left;
+  }
+  .notice_right {
+    padding: 10px 0;
+    display: block;
+  }
+  .notice_item a {
+    padding: 3px 15px;
+  }
+  .notice_left h4 {
+    margin-top: 40px;
+  }
+  .treatment_header h2 {
+    font-size: 35px;
+  }
+  .treatment_header span {
+    font-size: 22px;
+  }
+  .treatMentOne h3 {
+    font-size: 25px;
+  }
+  .treatMent_two h3 {
+    font-size: 25px;
+  }
+  .treatMentOne p {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .treatMent_two p {
+    font-size: 15px;
+    text-align: center;
+  }
+  .treet_1btn a {
+    padding: 10px 35px;
+    font-size: 10px;
+    margin-right: 20px;
+    display: inline-block;
+  }
+  .treatMentOne {
+    padding: 30px 20px 30px 20px;
+  }
+  .treatMent_two {
+    padding: 30px 20px 30px 20px;
+  }
+  .treatment_carBottom {
+    margin: 25px 0;
+  }
+  .treatment_carBottom_one img {
+    margin-left:0px;
+  }
+  .treatment_carBottom_one p {
+    margin-bottom: 10px;
+  }
+  .treat_topmargin {
+    transform: translateY(0px);
+  }
+  .treatment_carBottom_one {
+    border: 1px solid #ddd;
+    padding: 35px 30px 40px 30px;
+    margin-bottom: 25px;
+  }
+  .treatbottoms_button a {
+    padding: 10px 41px;
+    font-size: 10px;
+    margin-right: 15px !important;
+    display: inline-block;
+  }
+  .beauty_items p {
+    text-align: center;
+  }
+  .text-right {
+    text-align: center !important;
+  }
+  .beauty_items p {
+    margin-bottom: 10px;
+  }
+  .reservation h4 {
+    margin-bottom: 15px;
+  }
+  .reservation a {
+    padding: 15px 70px;
+    font-size: 18px;
+  }
+  .reservation p {
+    font-size: 16px;
+    text-align: center;
+  }
+  .reservation span {
+    font-size: 20px;
+  }
+  .reservation h2 {
+    font-size: 35px;
+  }
+  .reservation span {
+    font-size: 16px;
+  }
+  .reservation .colorssp {
+    text-align: center;
+    font-size: 11px;
+  }
+  .consultaion_header h2 {
+    font-size: 35px;
+  }
+  .consulataion_table {
+    padding: 40px 20px;
+  }
+  .consulataion_table th {
+    padding: 20px 0;
+    font-size: 14px;
+  }
+  .consultaion_header span {
+    font-size: 12px;
+  }
+  .open {
+    height: 6px;
+    width: 6px;
+  }
+  .extra-info {
+    font-size: 12px;
+  }
+  .table_color {
+    text-align: left;
+    padding: 30px 20px;
+  }
+  .table_color p {
+    font-size: 12px;
+  }
+  .table_color p span {
+    font-size: 12px;
+  }
+  .beatuty_row {
+    margin: 0px 0px;
+  }
+  .beatuty_main {
+    padding: 30px 20px 50px 20px;
+  }
+  .physcho_item img {
+    width: 250px;
+    margin-bottom: 30px;
+  }
+  .product_content {
+    padding: 0 0 50px 0;
+  }
+  .product_content a {
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    padding: 15px 40px;
+  }
+  .physcho_item p {
+    width: 100%;
+  }
+  .extra-button {
+    right: 10%;
+  }
+  .extra-button a {
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    font-size: 30px;
+  }
+  .sidebar {
+    width: 70%;
+  }
+  .phycho_right{
+    margin-top: 30px;
+  }
+  .physcho_item {
+    margin-top: 0px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+
+
+/*doctor info responsive start */
+.product_header {
+	padding-top: 10px;
+}
+.about_img_2 img {
+	float:left;
+}
+#Arrolie_Clinic {
+	padding: 45px 0;
+}
+.arrolie_clinic_main {
+	padding: 45px 10px;
+}
+#gallery_part {
+	padding: 20px 0;
+}
+.gal_img img {
+	width: 100%;
+}
+
+.image_sm {
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+}
+
+/*doctor info responsive end */
+
+
+/* treatment page responsive start */
+
+.gany_pic {
+	width: 25%;
+}
+.gany_part {
+	padding: 40px 20px;
+}
+.gany_text_1 {
+	padding: 30px 10px;
+}
+.gany_text_2 {
+	padding: 30px 10px;
+}
+
+/* treatment page responsive end */
+
+
+
+/*tariff page responsive start */
+.tarif_flex {
+	display: block;
+}
+.tarif_box_main{
+  display: flex;
+  flex-direction: column;
+}
+.tarif_box_text{
+  width: 100%;
+}
+.tarif_box_num{
+  width: 100%;
+}
+.tarif_box_children {
+  padding: 40px 15px;
+}
+.tarif_box_st a {
+  font-size: 13px;
+}
+.tarif_ki1 {
+	padding: 50px 15px;
+	display: block;
+}
+.tariff_hand h3 {
+	font-size: 10px;
+}
+.tarif_box_text{
+  border-bottom: 1px solid var(--border2-color);
+}
+/*tariff page responsive end */
+
+
+
+
+
+/*contact page responsive start */
+.contact_num ul .florItem_num::before {
+	display: none;
+}
+.contact_num ul .florItem_num::after {
+	display: none;
+}
+.contact_form {
+	padding: 40px 10px;
+}
+.form_input input {
+	padding: 5px 15px;
+}
+.florItem_ttl h6 {
+	font-size: 14px;
+}
+/*contact page responsive end */
+
+
+
+
+
+.banner_box {
+	width: auto;
+	display: block;
+}
+.banner_box_num {
+	width: auto;
+	padding: 5px;
+	border-bottom: 1px solid var(--secondary-color);
+}
+.banner_box_text {
+	 width: auto;
+}
+.banner_change {
+	border-bottom: transparent;
+  
+}
+.banner_imtax {
+	padding: 20px 10px;
+}
+
+.pair_text {
+	padding: 20px 10px;
+}
+.pair_parents {
+	padding: 50px 10px;
+}
+
+
+
+
+
+}
+@media (max-width: 575.99px) {
+  /*nav part responsive */
+.button_responsive {
+	margin-top: 300px;
+}
+.banner-main .slick-list {
+	overflow: visible;
+}
+
+.hero_text {
+	position: absolute;
+	top: 206px;
+  text-align: left;
+}
+.hero_btn a {
+	display: none;
+}
+.text_big {
+	display: none;
+}
+.text h3 {
+	display: none;
+}
+
+.text h4 {
+	display: inline;
+}
+
+.text h5 {
+	display: inline;
+}
+nav .logo img {
+	width: 130px;
+}
+.navbar {
+  top:0;
+  position: fixed;
+}
+.button_single a {
+	font-size: 8px;
+}
+#Alorie_part {
+	padding: 25px 0;
+}
+
+/* 
+.navbar {
+	margin-top: -100px;
+} */
+
+.banner_up{
+  margin-top: 100px;
+  text-align: center;
+}
+
+.banner_up a {
+	border: 1px solid black;
+	padding: 0px 16px;
+	color: #64686a;
+	font-size: 20px;
+	font-family: "Shippori Mincho B1", serif;
+}
+.banner_up h3{
+  font-size: 20px;
+  margin: 10px 0;
+  color:var(--secondary-color)
+} 
+
+  /*nav part responsive */
+  .boxshadow {
+    display: none;
+  }
+  .navbar {
+    display: block;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    background: #fff;
+    padding: 20px 0;
+  }
+  .navbar-brand {
+    width: 30%;
+  }
+  .logo {
+    width: 100% !important;
+  }
+  .navbar-brand a img {
+    width: 100%;
+  }
+  .button-p {
+    display: inline-block;
+    min-width: 30% !important;
+    font-size: 14px;
+    min-height: 30px;
+  }
+  .b-01,
+  .b-02 {
+    background-size: cover;
+    background-position: left;
+  }
+  .hero_btn a {
+    font-size: 18px;
+  }
+  .text_big {
+    font-size: 40px;
+  }
+  .text h3 {
+    font-size: 30px;
+  }
+  .text h4 {
+    font-size: 20px;
+  }
+  .hero_text {
+    text-align: center;
+  }
+  .hero_btn {
+    margin-bottom: 20px;
+    justify-content: center !important;
+  }
+  .text h5 {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .alori_main span {
+    font-size: 14px;
+  }
+  .alori_main p {
+    font-size: 13px;
+  }
+  .button_single a {
+    font-size: 9px;
+  }
+  .alori_main {
+    text-align: left;
+  }
+  .notice_left h4 {
+    margin-top: 40px;
+  }
+  .notice_right {
+    padding: 10px 0;
+    display: block;
+  }
+  .notice_item a {
+    padding: 3px 15px;
+  }
+  .treatment_header h2 {
+    font-size: 35px;
+  }
+  .treatment_header span {
+    font-size: 22px;
+  }
+  .treatMentOne h3 {
+    font-size: 25px;
+  }
+  .treatMent_two h3 {
+    font-size: 25px;
+  }
+  .treatMentOne p {
+    font-size: 13px;
+    text-align: center;
+    line-height: 28px;
+  }
+
+  .treatMent_two p {
+    font-size: 13px;
+    text-align: center;
+  }
+  .beatuty_p {
+    font-size: 13px;
+    line-height: 28px;
+  }
+  .beauty_items p {
+    font-size: 13px;
+  }
+  .treet_1btn a {
+    padding: 10px 15px;
+    font-size: 10px;
+    margin-right: 0;
+    display: inline-block;
+  }
+  .treatMentOne {
+    padding: 30px 20px 30px 20px;
+  }
+  .treatMent_two {
+    padding: 30px 20px 30px 20px;
+  }
+  .treatment_carBottom {
+    margin: 25px 0;
+  }
+  .treatment_carBottom_one {
+    margin-bottom: 25px;
+  }
+  .treatbottoms_button a {
+    padding: 10px 15px;
+    font-size: 10px;
+    margin-right: 10px !important;
+    display: inline-block;
+  }
+  .reservation a {
+    padding: 15px 70px;
+    font-size: 18px;
+  }
+  .reservation p {
+    font-size: 12px;
+    text-align: center;
+  }
+  .reservation span {
+    font-size: 20px;
+  }
+  .reservation h2 {
+    font-size: 35px;
+  }
+  .reservation span {
+    font-size: 16px;
+  }
+  .reservation .colorssp {
+    text-align: center;
+    font-size: 11px;
+  }
+  .consultaion_header h2 {
+    font-size: 35px;
+  }
+  .consulataion_table {
+    padding: 40px 20px;
+  }
+  .consulataion_table th {
+    padding: 20px 0;
+    font-size: 14px;
+  }
+  .consultaion_header span {
+    font-size: 12px;
+  }
+  .open {
+    height: 6px;
+    width: 6px;
+  }
+  .extra-info {
+    font-size: 12px;
+  }
+  .table_color {
+    text-align: left;
+    padding: 30px 20px;
+  }
+  .table_color p {
+    font-size: 12px;
+  }
+  .table_color p span {
+    font-size: 12px;
+  }
+  .beatuty_row {
+    margin: 0px 0px;
+  }
+  .beatuty_main {
+    padding: 30px 20px 50px 20px;
+  }
+  .physcho_item span {
+    font-size: 14px;
+  }
+  .physcho_item p {
+    font-size: 11px;
+    width: 100%;
+  }
+  .physcho_item {
+    text-align: center;
+    margin: 20px 0 50px 0;
+  }
+  .physcho_item img {
+    width: 250px;
+    margin-bottom: 30px;
+  }
+  .product_content {
+    padding: 0;
+  }
+  .product_content a {
+    display: inline-block;
+    text-align: center;
+    font-size: 13px;
+    padding: 20px 40px;
+    margin-bottom: 30px;
+  }
+  .product_content p {
+    font-size: 13px;
+  }
+  .extra-button {
+    right: 10%;
+  }
+  .extra-button a {
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    font-size: 30px;
+  }
+  .treet_1btn{
+    margin-right:10px;
+  }
+  .footer_left p {
+ margin-left: 0;
+  }
+  .footer_right a {
+    font-size: 10px;
+    margin-top: 3px;
+  }
+
+
+/* doctorintero section responsive  part start */
+
+/* image and text section responsive part start */
+.product_header {
+	padding-top: 15px;
+}
+#doctorsIntroHeroSection {
+	padding: 100px 0;
+}
+.product_img img {
+	padding-bottom: 40px;
+}
+#image-and-text-section {
+	padding: 70px 0;
+}
+.arrolie_clinic_main {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.image_img img{
+  margin-top: 30px;
+}
+
+
+.about_img_2 img {
+	width: 100%;
+}
+
+
+.image_sm {
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+}
+
+/* image and text section responsive part end */
+
+
+
+
+
+
+/* gallery part section responsive part start */
+#gallery_part {
+	padding: 40px 0;
+}
+.gallery_img h2 {
+	font-size: 2.4rem;
+}
+.gal_img img{
+  width: 100%;
+  height: auto;
+}
+#Arrolie_Clinic {
+	padding: 80px 0;
+}
+
+/* gallery part section responsive part end */
+
+
+
+
+
+/* doctorintero section responsive  part end */
+
+
+
+
+
+
+/* treatment page responsive start */
+
+.gany_pic {
+	width: 25%;
+}
+.gany_part {
+	padding: 40px 20px;
+}
+.gany_text_1 {
+	padding: 30px 10px;
+}
+.gany_text_2 {
+	padding: 30px 10px;
+}
+.gany_part h5 {
+	width: 100%;
+}
+.gany_text_1 .d-flex {
+	flex-wrap: wrap;
+}
+.capanor_jonno{
+  padding-left: 30px;
+  padding-right: 30px;
+  /* margint: 20px; */
+}
+.gany_text_1 {
+	margin-top: 25px;
+}
+.gany_part h2 {
+	font-size: 1.2rem;
+}
+/* treatment page responsive end */
+
+
+
+
+
+
+
+/*tariff page responsive start */
+.tarif_flex{
+  display: block;
+}
+.tarif_box_main{
+  display: flex;
+  flex-direction: column;
+}
+.tarif_box_text{
+  width: 100%;
+}
+.tarif_box_num{
+  width: 100%;
+}
+.tarif_box_children {
+  padding: 40px 15px;
+}
+.tarif_box_st a {
+  font-size: 13px;
+}
+.tarif_ki1 {
+	padding: 50px 15px;
+	display: block;
+}
+.tariff_hand h3 {
+	font-size: 10px;
+}
+.tarif_box_text{
+  border-bottom: 1px solid var(--border2-color);
+}
+/*tariff page responsive end */
+
+
+
+/*consulation part responsive start*/
+
+/*consulation part responsive end*/
+
+
+/*contact page responsive start */
+.contact_num ul .florItem_num::before {
+	display: none;
+}
+.contact_num ul .florItem_num::after {
+	display: none;
+}
+.contact_form {
+	padding: 40px 10px;
+}
+.form_input input {
+	padding: 5px 15px;
+}
+.florItem_ttl h6 {
+	font-size: 14px;
+}
+/*contact page responsive end */
+
+
+
+
+
+
+
+
+/*banner_pic  page responsive start */
+.banner_imtax_img h3 {
+	font-size: 25px;
+}
+.banner_imtax_text h2 {
+	font-size: 20px;
+	margin-top: 30px;
+	padding-bottom: 10px;
+}
+.banner_box {
+	width: auto;
+	display: block;
+}
+.banner_box_num {
+	width: auto;
+	padding: 5px;
+	border-bottom: 1px solid var(--secondary-color);
+}
+.banner_box_text {
+	 width: auto;
+}
+.banner_change {
+	border-bottom: transparent;
+}
+.pair_text {
+	padding: 20px 10px;
+}
+.pair_parents {
+	padding: 50px 10px;
+}
+/*banner_pic  page responsive end */
+
+
+
+
+
+
+
+
+
+
+
+
+/*news_topic page responsive start */
+.pair_head h5 {
+	font-size: 30px;
+	margin-top: 40px;
+}
+.pair_head h2 {
+	font-size: 29px;
+	margin-top: 30px;
+}
+.class_menu li {
+	width: 100%;
+	font-size: 17px;
+	margin-top: 10px;
+}
+.pair_child_text h3 {
+	font-size: 14px;
+}
+.banner_imtax {
+	padding: 20px 10px;
+}
+/*news_topic page responsive end */
+
+
+
+}
+
+
+
+
+
+
+  
+@media(min-width:0px) and (max-width:371px){
+  .b-01 img ,.b-02 img{
+    width:230%;
+  }
+}
+
+  
+@media(min-width:372px) and (max-width:475px){
+  .b-01 img ,.b-02 img{
+    width:180%;
+  }
+}
+
+  
+@media(min-width:476px) and (max-width:611px){
+  .b-01 img ,.b-02 img{
+    width:140%;
+  }
+}
+
+ 
+@media(min-width:612px) and (max-width:715px){
+  .b-01 img ,.b-02 img{
+    width:120%;
+  }
+}
+
+
+@media(min-width:716px) and (max-width:882px){
+  .b-01 img ,.b-02 img{
+    width:100%;
+  }
+}
+
+
+@media(min-width:900px) and (max-width:992px){
+  .b-01 img ,.b-02 img{
+    width:110%;
+  }
+  .small_device_banner_text,.small_device_banner_text2{
+    margin-top: 100px;
+   }
+}
+
+
+@media(min-width:993px) and (max-width:1500px){
+  .b-01 img,.b-02 img{
+    width: 100%;
+    height: 100%;
+  }
+
+}

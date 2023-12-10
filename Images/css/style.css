@@ -1,0 +1,2269 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden !important;
+  font-family: Cabin, 游ゴシック体, YuGothic, Yu Gothic, 游ゴシック,
+    Yu Gothic Medium, sans-serif;
+  font-size: 1.6rem;
+}
+
+@font-face {
+  font-family: "Yu Gothic Medium";
+  src: url("../font/Yu\ Gothic\ Medium.otf");
+}
+
+ul {
+  margin-bottom: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+:root {
+  --primary-color: #f28599;
+  --secondary-color: #64686a;
+  --tartiary-color: #fff5f6;
+  --tarnary-color: #ffffff;
+  --border1-color: #939a9a;
+  --border2-color: #e3e3e3;
+}
+
+/* navbar part css */
+.Navcontainer {
+  max-width: 1250px;
+  margin: 0 auto;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Navcontainer .main {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-family: "Cabin", sans-serif;
+}
+
+.Navcontainer li a {
+  color: var(--primary-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Shippori Mincho B1", serif;
+  font-weight: 500;
+}
+
+.boxshadow {
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99999;
+  background: #fff;
+}
+
+.main-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Navcontainer .main-around a {
+  color: #64686a;
+  font-size: 14px;
+  font-family: 500;
+  margin-top: 15px;
+}
+
+.main-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav p {
+  color: #7e7e7e;
+  display: block;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  line-height: 1.4545454545;
+}
+
+nav .logo {
+  width: 267px;
+}
+
+nav .text-call {
+  color: #dd6779;
+}
+
+nav .logo img {
+  width: 100%;
+}
+
+nav .call {
+  color: #64686a;
+  display: block;
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  line-height: 1.4;
+  padding-left: 8px;
+  position: relative;
+
+  text-decoration: none;
+  font-family: "Shippori Mincho", serif;
+}
+
+nav .main-f {
+  display: flex;
+  align-items: center;
+}
+
+.button-p {
+  min-width: 210px;
+  font-size: 1.5rem;
+  line-height: 1.4666666667;
+  min-height: 44px;
+  padding: 10px;
+  background-color: #f28599;
+  border-radius: 34px;
+  font-weight: 600;
+  border: none;
+  color: #fff !important;
+  letter-spacing: 0.02em;
+  text-align: center;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  font-family: "Shippori Mincho", serif;
+}
+
+.button-p p {
+  color: #fff;
+  position: relative;
+  font-weight: 600;
+  font-family: "Shippori Mincho", serif;
+  font-size: 13px;
+}
+
+.button-p p::after {
+  background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='15.619' height='15.619'%3E%3Cpath fill='%23fff' fill-rule='evenodd' d='m14.817 7.008-.007 1.607q-.09 0-.179-.002a4.122 4.122 0 0 0-4 4.035l-1.644.006a5.576 5.576 0 0 1 1.754-4.024l-9.898.022L.85 6.96l9.823-.022A5.5 5.5 0 0 1 9.03 2.995l1.644-.004a4.057 4.057 0 0 0 3.962 4.017q.09-.003.178-.003Z'/%3E%3C/svg%3E") no-repeat 50%;
+  background-size: 16px 16px;
+  content: "";
+  position: absolute;
+  display: block;
+  height: 16px;
+  width: 16px;
+  top: 50%;
+  right: 18px;
+  transform: translatey(-50%);
+}
+
+.LineIcon {
+  width: 40px;
+  height: auto;
+}
+
+/* navbar part css end */
+
+/* Hero part start */
+
+.banner-main {
+  position: relative;
+}
+
+.hero_part {
+  padding: 200px 0 200px 0;
+  z-index: -1;
+}
+
+.b-01 img {
+width:100%;
+height: auto;
+position: absolute;
+top:0;
+left:0;
+  /* background: url(../Images/banner1.jpg) no-repeat center / cover; */
+}
+.b-01{
+  position: relative;
+}
+
+
+.b-02 img {
+  width:100%;
+  height: auto;
+  position: absolute;
+  top:0;
+  left:0;
+    /* background: url(../Images/banner1.jpg) no-repeat center / cover; */
+  }
+  .b-02{
+    position: relative;
+  }
+.b-02 {
+  /* background: url(../Images/banner2.jpg) no-repeat center / cover; */
+}
+
+.hero_btn a {
+  border: 1px solid black;
+  padding: 10px 16px;
+  color: #64686a;
+  font-size: 24px;
+  font-family: "Shippori Mincho B1", serif;
+}
+
+.text h5 {
+  font-size: 20px;
+}
+
+.text h5 span {
+  color: var(--primary-color);
+}
+
+.text_big {
+  font-weight: 500;
+  font-size: 57px;
+  color: var(--secondary-color);
+}
+
+.text h3 {
+  font-size: 38px;
+  color: var(--secondary-color);
+  margin-bottom: 20px;
+}
+
+.text h4 {
+  font-size: 24px;
+  color: var(--secondary-color);
+  margin-bottom: 20px;
+}
+
+.text h5 {
+  font-size: 20px;
+  color: var(--secondary-color);
+  font-weight: 500;
+  line-height: 30px;
+}
+
+/* Hero part end */
+/* button part start */
+.button_part {
+  margin-top: 20px;
+}
+
+.button_single {
+  background: var(--primary-color);
+  border-radius: 25px;
+  text-align: center;
+  margin-bottom: 8px;
+  height: 44px;
+  transition: 0.5s;
+}
+
+.button_single a {
+  color: var(--tartiary-color);
+  font-size: 16px;
+  font-family: "Cabin", sans-serif;
+  font-weight: 400;
+}
+
+.button_single:hover {
+  background: #dd647a;
+}
+
+/* button part end */
+/*Alorie_part css start  */
+#Alorie_part {
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 0;
+  margin-top: 20px;
+}
+
+.alori_main {
+  text-align: center;
+}
+
+.alori_main h2 {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Shippori Mincho B1", serif;
+  color: var(--secondary-color);
+}
+
+.top {
+  margin: 30px 0 25px 0;
+}
+
+.alori_main span {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Shippori Mincho B1", serif;
+  color: var(--secondary-color);
+}
+
+.alori_main p {
+  color: #64686a;
+  font-size: 16px;
+  line-height: 30px;
+  font-family: "Cabin", sans-serif;
+  font-weight: 400;
+}
+
+/*Alorie_part css end  */
+
+/* notice part start */
+#notice_part {
+  margin-top: 30px;
+  padding: 30px 0;
+}
+
+.notice_left h2 {
+  font-family: "Shippori Mincho B1", serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.notice_left h4 {
+  font-size: 11px;
+  font-weight: 400;
+  margin-top: 140px;
+}
+.notice_left h4 a{
+  font-size: 11px;
+  color:var(--secondary-color)
+}
+.notice_left h4 img {
+  height: 17px;
+  width: 17px;
+  margin-right: 3px;
+}
+
+.date {
+  font-size: 13px;
+  color: #939a9a;
+}
+
+.notice_item a {
+  font-size: 11px;
+  color: #939a9a;
+  border: 1px solid var(--secondary-color);
+  padding: 3px 25px;
+  margin: 0 23px 0 23px;
+  transition: .3s;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -ms-transition: .3s;
+  -o-transition: .3s;
+}
+.notice_item a:hover{
+  background: var(--border2-color);
+}
+
+.notice_right {
+  font-size: 14px;
+  font-family: "Cabin", sans-serif;
+  font-weight: 400;
+  padding-bottom: 10px;
+  color:var(--secondary-color)
+}
+
+/* notice part end */
+/* treatment part css */
+#treatment_part {
+  background: #fff5f6;
+}
+
+.treatment_header {
+  text-align: center;
+  padding-top: 60px;
+  margin-bottom: 35px;
+}
+
+.treatment_header span {
+  font-size: 24px;
+  color: #939a9a;
+  font-weight: 500;
+  font-family: "Cormorant Infant", serif;
+}
+
+.treatment_header h2 {
+  font-size: 44px;
+  color: var(--secondary-color);
+  font-family: "Cormorant Infant", serif;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.treatMentOne {
+  background-color: var(--tarnary-color);
+  text-align: center;
+  padding: 30px 0 50px 0;
+  margin-bottom: 30px;
+}
+
+.treettrat {
+  width: 100px;
+  padding-bottom: 20px;
+}
+
+.treatMentOne h3 {
+  font-size: 32px;
+  color: var(--secondary-color);
+}
+
+.treatMentOne a {
+  font-size: 11px;
+  color: #939a9a;
+  border: 1px solid var(--secondary-color);
+  padding: 5px 20px;
+  margin-bottom: 20px;
+}
+
+.treatMentOne p {
+  color: var(--secondary-color);
+  font-size: 16px;
+  padding: 25px 0;
+  font-family: "Cabin", sans-serif;
+  font-weight: 400;
+}
+
+.treet_1btn a {
+  background: var(--primary-color);
+  color: var(--tarnary-color);
+  border: none;
+  text-align: center;
+  padding: 13px 55px;
+  font-size: 15px;
+  border-radius: 25px;
+  margin-right: 20px;
+}
+
+.treatMent_two {
+  background: var(--tarnary-color);
+  text-align: center;
+  padding: 35px 0;
+}
+
+.treatMent_two h3 {
+  font-size: 32px;
+  color: var(--secondary-color);
+  padding: 15px 0 5px 0;
+}
+
+.treatMent_two a {
+  font-size: 11px;
+  color: #939a9a;
+  border: 1px solid var(--secondary-color);
+  padding: 4px 30px;
+}
+
+.treatP {
+  margin-top: 30px;
+}
+
+.treatMent_two p {
+  font-size: 16px;
+  color: var(--secondary-color);
+  font-family: "Cabin", sans-serif;
+  line-height: 28px;
+}
+
+.treatment_carBottom {
+  margin: 25px 45px;
+}
+
+.treatment_carBottom_one {
+  border: 1px solid #ddd;
+  padding: 35px 30px 50px 30px;
+}
+
+.treatment_carBottom_one h3 {
+  font-size: 20px;
+  font-family: "Shippori Mincho B1", serif;
+  font-weight: 500;
+}
+
+.treatment_carBottom_one p {
+  font-size: 16px;
+  color: var(--secondary-color);
+  line-height: 29px;
+  margin-bottom: 30px;
+}
+
+.treatment_carBottom_one img {
+  height: 25px;
+  width: 25px;
+  margin-left: 120px;
+}
+
+.treatment_carBottom_one a {
+  border: none;
+  border-bottom: 1px solid var(--secondary-color);
+  font-size: 14px;
+  padding: 0 0 0 7px;
+}
+
+.treat_right {
+  margin-bottom: 30px;
+}
+
+.treat_topmargin {
+  transform: translateY(20px);
+}
+
+.treatbottoms_button {
+  margin-top: 30px;
+}
+
+.treatbottoms_button a {
+  background: var(--primary-color);
+  color: var(--tarnary-color) !important;
+  border: none;
+  text-align: center;
+  padding: 13px 55px;
+  font-size: 15px;
+  border-radius: 25px;
+  margin-right: 20px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.treatbottoms_button a:hover {
+  background: #dd647a;
+}
+
+.trt_gap {
+  margin-top: 30px;
+  padding-bottom: 60px;
+}
+
+/* treatment part css end */
+/* beauty part start */
+#beauty_part {
+  background: #fff5f6;
+}
+
+.beatuty_main {
+  background: var(--tarnary-color);
+}
+
+.beauty_header {
+  text-align: center;
+}
+
+.beauty_header img {
+  width: 100px;
+  margin-top: 30px;
+}
+
+.beauty_header h2 {
+  font-size: 32px;
+  color: var(--secondary-color);
+  font-family: "Shippori Mincho B1", serif;
+  font-weight: 500;
+  margin: 15px 0 10px 0;
+}
+
+.beauty_header a {
+  font-size: 11px;
+  color: #939a9a;
+  border: 1px solid var(--secondary-color);
+  padding: 4px 30px;
+}
+
+.beauty_header {
+  font-size: 16px;
+  color: var(--secondary-color);
+  line-height: 28px;
+  font-weight: 400;
+  font-family: "Cabin", sans-serif;
+}
+
+.beatuty_p {
+  margin-top: 30px;
+}
+
+.beauty_items {
+  border: 1px solid #ddd;
+
+  margin: 40px 0 0px 0px;
+  padding: 30px;
+}
+
+.beatuty_row {
+  margin: 0 40px;
+}
+
+.beauty_items h3 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
+  font-family: "Cormorant Infant", serif;
+  color: var(--secondary-color);
+  margin-bottom: 20px;
+}
+
+.beauty_items p {
+  font-size: 16px;
+  color: var(--secondary-color);
+  font-weight: 400;
+  font-family: "Cabin", sans-serif;
+  margin-bottom: 20px;
+  line-height: 28px;
+}
+
+.beatuty_a a img {
+  max-width: 35px;
+  max-height: 35px;
+  margin-right: 12px;
+}
+
+.beatuty_a a span {
+  font-size: 14px;
+  color: var(--secondary-color);
+  font-weight: 400;
+  font-family: "Cabin", sans-serif;
+  border-bottom: 1px solid var(--secondary-color);
+  max-width: 40px;
+}
+
+.margin_rights p {
+  margin-bottom: 0;
+}
+
+.beauty_gap {
+  padding-bottom: 20px;
+}
+
+.beatuty_main {
+  padding-bottom: 50px;
+}
+
+.treet_bottomssakk {
+  margin-top: 25px;
+}
+
+.treetment_circle {
+  margin-top: 30px;
+  padding: 30px 0 70px 0;
+}
+
+/* beauty part end */
+
+/* reservation_part part start */
+#reservation_part {
+  padding: 70px 0;
+}
+
+.reservation span {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Cormorant Infant", serif;
+  color: #939a9a;
+}
+
+.reservation h2 {
+  font-size: 44px;
+  color: var(--secondary-color);
+  margin: 15px 0 30px 0;
+}
+
+.reservation h4 {
+  font-size: 16px;
+  font-family: "Cabin", sans-serif;
+  font-weight: 400;
+  color: var(--secondary-color);
+}
+
+.reservation p {
+  font-size: 16px;
+  font-family: "Cabin", sans-serif;
+  font-weight: 400;
+  color: var(--secondary-color);
+  line-height: 28px;
+}
+
+.pchin {
+  margin-bottom: 30px;
+}
+
+.colorssp span {
+  color: #dd6779;
+  font-size: 13px;
+  font-family: "Cabin", sans-serif;
+  font-weight: 400;
+}
+
+.reservation a {
+  background: var(--primary-color);
+  padding: 15px 150px;
+  color: var(--tarnary-color);
+  border-radius: 25px;
+  font-size: 18px;
+  font-family: "Shippori Mincho B1", serif;
+  transition: 0.5s;
+}
+
+.reservation a:hover {
+  background: #dd647a;
+}
+
+.color_width {
+  margin-top: 20px;
+}
+
+/* reservation part end */
+
+/* consultaion part start */
+#Consultation_part {
+  background: #fafafa;
+  padding: 60px 0 40px 0;
+}
+
+.consultaion_header {
+  text-align: center;
+}
+
+.consultaion_header span {
+  font-size: 18px;
+  color: #939a9a;
+  font-family: "Cormorant Infant", serif;
+  font-weight: 500;
+}
+
+.consultaion_header h2 {
+  font-size: 44px;
+  color: var(--secondary-color);
+  font-family: "Cormorant Infant", serif;
+  font-weight: 500;
+  padding-top: 10px;
+  margin-bottom: 30px;
+}
+
+.table_color {
+  background: #fff5f6;
+  padding: 35px 75px 35px 35px;
+}
+
+.table_color p {
+  font-size: 16px;
+}
+
+.table_color p span {
+  font-size: 16px;
+  color: var(--primary-color);
+  line-height: 32px;
+}
+
+.table_part {
+  margin-top: 40px;
+  background: var(--tarnary-color);
+}
+
+.extra-info {
+  font-family: "Cabin", sans-serif;
+  color: #64686a;
+  font-size: 1rem;
+  line-height: 1.5384615385;
+  text-align: center;
+}
+
+/* phycho part start */
+.phycho_right img {
+  width: 100%;
+}
+
+.phycho_parts {
+  background: var(--tarnary-color);
+  padding: 60px 50px;
+  margin-top: 20px;
+}
+
+.physcho_item {
+  margin-top: 70px;
+}
+
+.physcho_item img {
+  width: 300px;
+  margin-bottom: 30px;
+}
+
+.physcho_item h4 {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Cabin", sans-serif;
+  color: var(--secondary-color);
+  transform: translateY(10px);
+}
+
+.physcho_item h5 {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Cabin", sans-serif;
+  color: var(--secondary-color);
+  padding-top: 3px;
+}
+
+.physcho_item span {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Cabin", sans-serif;
+  color: var(--secondary-color);
+  line-height: 28px;
+}
+
+.physcho_item p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Cabin", sans-serif;
+  color: var(--secondary-color);
+  width: 76%;
+  line-height: 29px;
+}
+
+.chineH4 {
+  margin-bottom: 20px;
+}
+
+.phycho_icon a img {
+  width: 35px;
+  height: 35px;
+}
+
+.phycho_icon a span {
+  font-size: 14px;
+  color: var(--secondary-color);
+  padding-left: 5px;
+  text-decoration: underline;
+}
+
+.maps_igg {
+  max-width: 13px;
+  max-height: 13px;
+}
+
+.phycho_right h3 {
+  color: var(--secondary-color);
+  padding-left: 50px;
+}
+
+.phycho_right img {
+  border: 1px solid #ddd;
+}
+
+.phycho_icon {
+  margin-top: 20px;
+}
+
+/* physcho part end */
+/* consultaion part end */
+/* table part start */
+.open {
+  border: 1px solid #64686a;
+  background: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+}
+
+.consulataion_table {
+  background: var(--tarnary-color);
+  padding: 80px 60px;
+}
+
+.closes {
+  text-align: center !important;
+  font-size: 20px;
+}
+
+.bl {
+  border-left: 1px solid #fff;
+}
+
+.br {
+  border-right: 1px solid #fff;
+}
+
+/* .consulataion_table td .close:before {
+  background-color: var(--color-base);
+  content: "";
+  display: block;
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 100%;
+} */
+.consulataion_table th {
+  padding: 30px 0;
+  width: 12%;
+  font-size: 1.1rem;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  color: #64686a;
+  font-family: "Cabin", sans-serif;
+}
+
+.close {
+  height: 14px;
+  width: 14px;
+}
+
+.table_h3 {
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-family: "Shippori Mincho B1", serif;
+  font-weight: 500;
+  color: #64686a;
+}
+
+/* .bl_schedule_table th {
+  font-size: 1.6rem;
+  height: 74px;
+  line-height: 1.3125;
+  padding: 0 18px;
+} */
+.consultaion_border {
+  border: 1px solid #ddd;
+}
+
+.cons_gap {
+  margin-bottom: 40px;
+}
+
+/* product part start */
+#product_part {
+  background: #fff5f6;
+  position: relative;
+}
+
+.product_header {
+  text-align: center;
+  padding-top: 80px;
+}
+
+.product_header span {
+  font-family: "Cormorant Infant", serif;
+  font-size: 24px;
+  color: #939a9a;
+  padding-bottom: 10px;
+}
+
+.product_header h2 {
+  font-size: 44px;
+  color: var(--secondary-color);
+  font-weight: 500;
+  font-family: "Shippori Mincho B1", serif;
+  margin-bottom: 50px;
+}
+
+.product_img img {
+  width: 100%;
+  padding-bottom: 80px;
+}
+
+.product_content p {
+  font-family: "Cabin", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--secondary-color);
+  padding-bottom: 20px;
+  line-height: 28px;
+}
+
+.product_content {
+  padding: 50px 0px 0 55px;
+}
+
+.product_content a {
+  background: var(--primary-color);
+  color: var(--tarnary-color);
+  font-family: "Shippori Mincho B1", serif;
+  font-weight: 500;
+  font-size: 18px;
+  min-height: 60px;
+  padding: 15px 80px;
+  border-radius: 35px;
+}
+
+.pro_last {
+  margin-bottom: 30px;
+}
+
+/* product part end */
+
+/* footer part css start */
+
+.footer_left {
+  text-align: center;
+}
+
+.footer_left p {
+  font-size: 11px;
+  color: #8b8b8b;
+  font-weight: 500;
+  padding: 35px 0;
+  margin-left: 20%;
+}
+
+.footer_right a {
+  color: #8b8b8b;
+  display: inline-block;
+  font-family: var(--font-family-cabin);
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  line-height: 1.3333333333;
+  text-decoration: none;
+  padding: 35px 0;
+}
+
+.ly_footer_privacy>a {
+  transition: opacity 0.3s;
+}
+
+.extra-btn-top a {
+  height: 50px;
+  width: 50px;
+  background: transparent;
+  border: 1px solid #64686a;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: absolute;
+  right: 5%;
+  bottom: 10%;
+  z-index: 999;
+  text-align: center;
+  line-height: 50px;
+  font-size: 16px;
+  color: #64686a;
+}
+
+.ex-cont {
+  position: relative;
+}
+
+.extra-button {
+  position: fixed;
+  bottom: 10%;
+  right: 5%;
+  display: none;
+  z-index: 1
+}
+
+.extra-button a {
+  height: 150px;
+  width: 150px;
+  background: #dd647a;
+  color: #fafafa;
+  display: inline-block;
+  text-align: center;
+  line-height: 150px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+/* Sidebar area start */
+
+.sidebar {
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+  top: 0;
+  right: -100%;
+  position: fixed;
+  z-index: 999;
+  text-align: center;
+  transition: all linear 0.5s;
+  -webkit-transition: all linear 0.5s;
+  -moz-transition: all linear 0.5s;
+  -ms-transition: all linear 0.5s;
+  -o-transition: all linear 0.5s;
+}
+.sidebar .nav-item .nav-link {
+	padding: 10px 0 !important;
+	color: #64686a;
+	text-align: left;
+	font-size: 20px;
+}
+.navbar-nav {
+  width: 100%;
+  padding: 0 20px;
+}
+
+.show {
+  color: #64686a;
+}
+
+.cross {
+  font-size: 40px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.cross i {
+  color: #4978bc;
+}
+
+.navbar {
+  display: none;
+}
+
+.sidebar .text-call {
+  color: #dd647a;
+  font-size: 16px;
+}
+
+.number {
+  color: #64686a;
+  padding: 10px 0;
+  display: inline-block;
+}
+
+/* Sidebar area end */
+
+
+/* ========================== doctors itro page start ============================================== */
+/* hero start */
+#doctorsIntroHeroSection {
+  padding: 120px 0;
+  background-color: var(--tartiary-color);
+
+}
+
+.doctor-intro-header {
+  color: var(--secondary-color);
+}
+
+.doctors-intro-hero-section-white-bg {
+  background-color: #fff !important;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.doctors-intro-hero-section-white-bg {
+  font-size: 13px !important;
+  font-weight: 300 !important;
+}
+
+/* hero end */
+
+/* image and text section start  */
+#image-and-text-section {
+  padding: 120px 0;
+  background-color: #ffff;
+}
+
+.text-color {
+  color: var(--secondary-color);
+}
+
+.image-text h2 {
+  color: var(--secondary-color);
+  font-size: 1.8rem;
+  margin-top: 75px;
+
+}
+
+.image-text h3 {
+  color: var(--primary-color);
+}
+
+.image-text h3 span {
+  color: var(--secondary-color);
+}
+
+.image-text p {
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: .04em;
+  line-height: 1.6875;
+  color: var(--secondary-color);
+  margin-top: 50px;
+  font-family: "Yu Gothic Medium";
+
+}
+
+.image_img img {
+  width: 85%;
+  float: right;
+}
+
+.overlay img {
+  position: absolute;
+  width: 35.5%;
+  height: 41%;
+  left: 53px;
+  bottom: -30px;
+}
+
+.about_img img {
+  width: 96%;
+  margin-top: 75px;
+}
+
+.about_text_2 h4 {
+  font-size: 1.6rem;
+  line-height: 1.6818181818;
+  color: var(--secondary-color);
+  margin-top: 50px;
+}
+
+.about_text_2 h4 span {
+  color: var(--primary-color)
+}
+
+.about_text_2 h3 {
+  font-size: 1.6rem;
+  line-height: 1.6818181818;
+  color: var(--secondary-color);
+}
+
+.about_text_2 p {
+  color: var(--secondary-color);
+  margin-top: 25px;
+  font-family: "Yu Gothic Medium";
+  font-size: 1rem;
+
+}
+
+.about_img_2 img {
+  width: 90%;
+  margin-top: 75px;
+  float: right;
+}
+
+
+
+
+.image_img_4 img {
+  width: 100%;
+  margin-top: 60px;
+}
+
+.image_sm {
+  width: 500px;
+  height: auto;
+  margin-top: 30px;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+.about_text_4 h4 {
+  color: var(--primary-color);
+  font-size: 1.6rem;
+  font-weight: 500;
+  letter-spacing: .04em;
+  line-height: 1.7222222222;
+  margin-top: 75px;
+}
+
+.about_text_4 h5 {
+  color: var(--secondary-color);
+  margin-bottom: 30px;
+}
+
+.about_text_4 p {
+  color: var(--secondary-color);
+  font-size: 1rem;
+  font-family: "Yu Gothic Medium";
+  margin-top: 8px;
+}
+
+.about_text_4 p span {
+  font-weight: 700;
+}
+
+/* image and text section end */
+
+
+
+
+
+
+
+
+
+
+/* Origin of Arrolie Clinic section start */
+#Arrolie_Clinic {
+  background: #fff5f6;
+  padding: 120px 0;
+  overflow: hidden;
+}
+
+.bg_img {
+  position: relative;
+}
+
+.bg_img img {
+  position: absolute;
+  left: -22px;
+  top: -160px;
+}
+
+.bg_img_1 {
+  position: relative;
+}
+
+.bg_img_1 img {
+  position: absolute;
+  right: 25px;
+  bottom: -115px;
+}
+
+.arrolie_clinic_main {
+  padding: 45px;
+  background: #fff;
+  text-align: center;
+  margin-top: 30px;
+  z-index: 1;
+}
+
+.arrolie_clinic_head h4 {
+  color: var(--secondary-color);
+  margin-bottom: 40px;
+}
+
+.clinic_img img {
+  width: 100%;
+}
+
+.arrolie_clinic_para p {
+  font-size: 1rem;
+  line-height: 1.6875;
+  font-family: "Yu Gothic Medium";
+  color: var(--secondary-color);
+  margin-top: 40px;
+  text-align: left;
+}
+
+.arrolie_clinic_para h4 {
+  color: var(--secondary-color);
+  text-align: left;
+  margin-top: 20px;
+}
+
+.arrolie_clinic_para h5 {
+  color: var(--secondary-color);
+  text-align: left;
+  font-size: 1rem;
+}
+
+.arrolie_clinic_para h6 {
+  color: var(--secondary-color);
+  text-align: left;
+  margin-top: 30px;
+}
+
+/* Origin of Arrolie Clinic section end */
+
+
+/* gallery Part section start*/
+
+#gallery_part {
+  padding: 120px 0;
+  text-align: center;
+}
+
+.gal_img img {
+  width: 18%;
+  height: auto;
+  ;
+}
+
+.gal_img {
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.gallery_img {
+  margin-top: 25px;
+}
+
+.gallery_img h2 {
+  color: var(--secondary-color);
+  font-size: 4.4rem;
+  line-height: 1.4772727273;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* gallery Part section end*/
+
+
+
+
+/* ========================== doctors itro page end ============================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================== toot(treatment) page start ============================================== */
+
+/*  medical treatment part start */
+
+#toot_part {
+  background: #fff5f6;
+  padding: 120px 0 210px;
+}
+
+.toot_header {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.toot_header span {
+  font-family: "Cormorant Infant", serif;
+  font-size: 24px;
+  color: #939a9a;
+  padding-top: 40px;
+}
+
+.toot_header h2 {
+  font-size: 44px;
+  color: var(--secondary-color);
+  font-weight: 500;
+  font-family: "Shippori Mincho B1", serif;
+  margin-bottom: 50px;
+}
+
+.toot_box {
+  background: var(--tarnary-color);
+  padding: 10px 20px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.toot_box a img {
+  display: block;
+  height: 20px;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  -webkit-transform: translateY(-50%) rotate(90deg);
+  transform: translateY(-50%) rotate(90deg);
+  width: 20px;
+  -moz-transform: translateY(-50%) rotate(90deg);
+  -ms-transform: translateY(-50%) rotate(90deg);
+  -o-transform: translateY(-50%) rotate(90deg);
+}
+
+.toot-pic {
+  width: 60px;
+}
+
+.toot_box h4 {
+  font-size: 1rem;
+  letter-spacing: .04em;
+  line-height: 1.375;
+  color: var(--secondary-color);
+}
+
+.toot_box .d-flex {
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.gany_part {
+  margin-top: 70px;
+  text-align: center;
+  align-items: center;
+  padding: 80px;
+  background: #fff;
+}
+
+.gany_part h2 {
+  font-size: 3.2rem;
+  letter-spacing: .04em;
+  line-height: 1.5;
+  color: var(--secondary-color);
+}
+
+.gany_part h5 {
+  font-size: 1.1rem;
+  padding: 5px 26px 4px;
+  color: var(--secondary-color);
+  border: 1px solid var(--border1-color);
+  width: 427px;
+  margin: 0 auto;
+}
+
+
+.gany_text_1 {
+  padding: 70px 60px 40px;
+  background: #fafafa;
+  border: 1px solid var(--border2-color);
+}
+
+.gany_text_2 {
+  padding: 70px 60px 40px;
+  background: #fff;
+  border: 1px solid var(--border2-color);
+}
+
+.gany_text_1 h2 {
+  font-size: 1.7rem;
+  color: var(--secondary-color);
+}
+
+.gany_ancor .d-flex {
+  justify-content: flex-end;
+}
+
+.beatuty_a {
+  margin-left: 30px;
+}
+
+.gany_text_2 h4 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  letter-spacing: .04em;
+  line-height: 1.6875;
+  margin-bottom: 22px;
+  color: var(--secondary-color);
+}
+
+.gany_pic {
+  width: 15%;
+  margin: 0 auto;
+}
+
+.gany_part h6 {
+  font-size: 1.1rem;
+  padding: 5px 26px 4px;
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  width: 230px;
+  margin: 0 auto;
+}
+
+
+.gany_part h4 {
+  font-size: 1.1rem;
+  color: var(--secondary-color);
+  margin-top: 50px;
+}
+
+.gany_part h3 {
+  font-size: 1.1rem;
+  color: var(--secondary-color);
+}
+
+.vajinal_part {
+  margin-top: 30px;
+}
+
+
+.gany_text_2 p {
+  font-size: 1.1rem;
+  color: var(--secondary-color);
+  margin-bottom: 20px;
+}
+
+
+.gany_part .flex h6 {
+  display: inline-block;
+}
+
+.gany_text_1 p {
+  font-size: 1.1rem;
+  padding: 5px 10px 4px;
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color)
+}
+
+.gany_text_1 .d-flex {
+  gap: 10px
+}
+
+/* .gany_text_1 .d-flex p{
+  margin-left: 10px;
+} */
+.beauty_top {
+  margin-top: 30px;
+}
+
+/*  medical treatment part end */
+
+
+/* ========================== toot(treatment) page end ============================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================== tariff  page start ============================================== */
+#tariff_part{
+  padding: 120px 0;
+  background: #fff5f6;;
+}
+.tarif_ki1{
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding: 50px 75px;
+  background:#fff;
+  margin-top: 50px;
+}
+.tariff_hand{
+  color: var(--secondary-color);
+  text-align: left;
+}
+
+.tarif_flex {
+  display: flex;
+  gap: 30px;
+}
+.tariff_hand h2{
+  font-size: 2.1rem;
+  color: var(--secondary-color)
+}
+.tariff_hand h3{
+  font-size: 14px;
+  border: 1px solid var(--border1-color);
+  padding-left: 10px;
+  padding-right: 10px;
+  color: var(--secondary-color);
+  line-height: 40px;
+}
+.tariff_hand h4{
+  font-size: 20px;
+  color: var(--secondary-color);
+  margin-top: 40px;
+  text-align: left;
+}
+.tariff_first{
+  text-align: right;
+  margin-top: 13px;
+}
+.tariff_first span{
+  color: var(--border1-color);
+  font-size: 18px;
+  position: relative;
+}
+.tariff_first span::after {
+	position: absolute;
+	content: '';
+	left: 0;
+	bottom: -4px;
+	background: var(--secondary-color);
+	width: 110px;
+	height: 1px;
+}
+.tarif_box_parents h3 {
+	color: var(--secondary-color);
+	text-align: right;
+	margin-top: 30px;
+	font-size: 20px;
+}
+.tarif_box_children{
+  background: #fff;
+  padding: 70px 70px;
+}
+.tarif_box_children h2{
+  color: var(--secondary-color);
+}
+.tarif_box_text{
+  background: #fafafa;
+  padding: 30px 30px;
+  width: 50%;
+  border-right: 1px solid var(--border2-color);
+  /* border-bottom: 1px solid var(--border2-color); */
+}
+.tarif_box_text h3 {
+	color: var(--secondary-color);
+	font-size: 23px;
+	text-align: left;
+}
+.tarif_box_text p {
+	color: var(--secondary-color);
+	font-size: 17px;
+	font-family: "Yu Gothic Medium";
+	font-weight: 500;
+	margin-top: 20px;
+}
+.tarif_box_st a{
+  font-size: 15px;
+  color: var(--secondary-color);
+  font-weight: 400;
+  font-family: "Cabin", sans-serif;
+  border: 1px solid var(--border1-color);
+  padding: 2px 20px;
+}
+.tarif_box_st {
+	margin-top: 20px;
+}
+.tarif_box_num{
+  background: #fff;
+  padding: 30px 30px;
+  width: 50%;
+}
+.tarif_box_num h4 {
+	color: var(--secondary-color);
+	text-align: right;
+	font-size: 20px;
+}
+.tarif_box_main{
+  display: flex;
+  border: 1px solid var(--border2-color);
+  align-items: center;
+}
+
+.tarif_top{
+  margin-top: 30px;
+}
+.tarif_border{
+  border-top: red;
+}
+.tarif_box_children h4 {
+	color: var(--secondary-color);
+	font-size: 20px;
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+.tarif_upor{
+  margin-top: 30px;
+}
+.tarif_upor h2{
+  color: var(--secondary-color);
+  font-size: 20px;
+}
+
+/* ========================== tariff  page end ============================================== */
+
+
+
+
+
+
+
+
+
+/* ========================== timing   page start ============================================== */
+#timing_part {
+	padding-top: 170px;
+	background: #fff5f6;
+}
+#notice_part {
+	margin-top: 30px;
+	padding: 30px 0;
+  background: #fff;
+}
+/* ========================== timing   page end ============================================== */
+
+
+
+
+
+
+
+
+
+/* ========================== contact page start ============================================== */
+#contact_section{
+  padding: 120px 0;
+  background: #fff5f6;;
+}
+
+
+.contact_header  {
+  text-align: center;
+  padding-top: 80px;
+}
+
+.contact_header  span {
+  font-family: "Cormorant Infant", serif;
+  font-size: 24px;
+  color: #939a9a;
+  padding-bottom: 10px;
+}
+
+.contact_header  h2 {
+  font-size: 44px;
+  color: var(--secondary-color);
+  font-weight: 500;
+  font-family: "Shippori Mincho B1", serif;
+  margin-bottom: 50px;
+}
+.contact_num ul li .florItem_num {
+  width: 50px;
+  height: 50px;
+  background: #939A9A;
+  border:1px solid #939A9A;
+  align-items: center;
+  border-radius: 50%;
+  display: flex;
+  font-size: 1.4rem;
+  justify-content: center;
+  line-height: 1.2857142857;
+  margin: 0 auto;
+  color:#fff;
+}
+.contact_num ul{
+  display: flex;
+  justify-content:space-between;
+  position: relative;
+}
+.contact_num ul .florItem_num::after {
+	position: absolute;
+	left: 120px;
+	top: 29px;
+	content: '';
+	background: #939A9A;
+	width: 38px;
+	height: 3px;
+}
+.contact_num ul .florItem_num::before {
+	position: absolute;
+	right: 120px;
+	top: 29px;
+	content: '';
+	background: #939A9A;
+	width: 38px;
+	height: 3px;
+}
+.florItem_ttl h2{
+  color: var(--secondary-color);
+  font-size: 15px;
+}
+.contact_massege h3{
+  color: var(--secondary-color);
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.contact_form{
+  padding: 75px;
+  margin-top: 30px;
+  background: #fff;;
+}
+.form_input input{
+  width: 100%;
+  padding: 20px 50px 20px 30px;
+  color:var(--secondary-color);
+  font-size: 20px;
+}
+.form_text h5{
+  color:var(--secondary-color);
+  font-size: 20px;
+}
+.form_text h5 span{
+  color:#DD6779;
+  margin-left: 12px;
+}
+.form_input_text input{
+  width: 100%;
+  height: 200px;
+}
+.contact_para h4{
+  color: var(--secondary-color);
+  font-size: 18px;
+  margin-top: 40px;
+}
+.florItem_ttl h6{
+  color: var(--secondary-color);
+  font-size: 25px;
+}
+/* ========================== contact page end ============================================== */
+
+
+
+
+/* ========================== pair page start ============================================== */
+#pair_part{
+  padding: 100px 0 90px;
+  background: #fff5f6;;
+}
+.pair_text{
+  padding: 80px;
+  background: #fff;
+  text-align: left;
+  margin-top: 90px;
+}
+.pair_text h5{
+  color: var(--secondary-color);
+  font-size: 15px;
+}
+.pair_text h2{
+  color: var(--secondary-color);
+  margin-top: 30px;
+}
+.pair_text a {
+  color: var(--secondary-color);
+  font-size: 15px;
+  border: 1px solid var(--border2-color);
+  text-align: center;
+  padding: 4px 6px;
+}
+.pair_text h6{
+  color: var(--secondary-color);
+  margin-top: 50px;
+}
+.pair_a a{
+  color:var(--border1-color);
+  font-size: 18px;
+  text-align: center;
+  margin-top: 30px;
+  display: block;
+}
+/* ========================== pair page end ============================================== */
+
+
+
+/* ========================== pair_4 pages start ============================================== */
+.pair_head h5{
+  color: var(--secondary-color);
+  font-size: 2.4rem;
+  text-align: center;
+  margin-top: 120px;
+}
+.pair_head h2{
+  color: var(--secondary-color);
+  font-size: 3.4rem;
+  text-align-last: center;
+  margin-top: 30px;
+}
+.pair_tabs{
+  margin-top: 60px;
+}
+.class_menu li{
+  height: 50px;
+  background: #fff;
+  margin-right: 20px;
+}
+.class_menu li{
+  width: 17%;
+  font-size: 20px;
+}
+.class_menu li .nav-link{
+  width: 100%;
+  line-height: 50px;
+  padding: 0;
+  border-radius: 0;
+  color:var(--secondary-color);
+}
+.class_menu  .nav-link.active, .class_menu .show > .nav-link {
+color:#fff;
+background-color: var(--secondary-color);
+}
+.pair_parents {
+	padding: 80px;
+	background: #fff;
+	text-align: left;
+	margin-top: 40px;
+}
+.pair_child_text h3{
+  font-size: 20px;
+  color: var(--border2-color);
+  display: inline-block;
+}
+.pair_child_text a{
+  color: var(--border2-color);
+  font-size: 15px;
+  border: 1px solid var(--border2-color);
+  text-align: center;
+  padding: 4px 6px;
+  margin-left: 10px;
+}
+.pair_child_text h5{
+  font-size: 17px;
+  margin-top: 10px;
+  color: var(--secondary-color);
+  border-bottom: 1px solid var(--border2-color);
+  padding-bottom: 30px;
+  transition: all linear .3s;
+  -webkit-transition: all linear .3s;
+  -moz-transition: all linear .3s;
+  -ms-transition: all linear .3s;
+  -o-transition: all linear .3s;
+}
+.pair_child_text h5:hover{
+  color: var(--border1-color);
+}
+.text-top{
+  margin-top: 30px;
+}
+/* ========================== pair_4 page end ============================================== */
+
+
+
+
+
+
+/* ========================== banner_pic page end ============================================== */
+#banner_pic_part{
+  padding: 100px 0 90px;
+  background: #fff5f6;;
+}
+.banner_imtax{
+  padding: 80px;
+	background: #fff;
+	text-align: left;
+	margin-top: 80px;
+}
+.banner_imtax_img img{
+  width: 100%;
+}
+.banner_imtax_img h5{
+  color: var(--secondary-color);
+  font-size: 18px;
+  margin-top: 30px;
+}
+.banner_imtax_img h3{
+  color: var(--secondary-color);
+  font-size: 2.3rem;
+  margin-top: 20px;
+}
+.banner_imtax_text h2 {
+	color: red;
+	font-size: 25px;
+	margin-top: 40px;
+	border-bottom: 1px solid var(--border1-color);
+	padding-bottom: 10px;
+}
+.banner_imtax_text h5{
+  color: var(--secondary-color);
+  font-size: 16px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.banner_imtax_text h4{
+  color: var(--secondary-color);
+  font-size: 17px;
+  margin-top: 20px;
+}
+.banner_imtax_text a{
+  color: var(--secondary-color);
+  background: yellow;
+  font-size: 18px;
+  margin-top: 15px;
+}
+.banner_imtax_text a i{
+  margin-left: 8px;
+}
+.banner_imtax_text i {
+	margin-left: 8px;
+	font-size: 14px;
+  color: var(--secondary-color);
+}
+.banner_box{
+  width: 70%;
+  border: 1px solid var(--border1-color);
+  display: flex;
+}
+.banner_box_num{
+  width: 20%;
+  border-right: 1px solid var(--border1-color);
+  padding: 5px;
+}
+.banner_box_num h3{
+  font-size: 14px;
+  color:var(--secondary-color);
+}
+.banner_box_text{
+  width: 80%;
+  padding: 5px;
+}
+.banner_box_text h3{
+  font-size: 14px;
+  color:var(--secondary-color);
+}
+.border_nai{
+  border-top: transparent;
+}
+.banner_pic_box_main{
+  margin-top: 30px;
+}
+.banner_bg{
+  background: #000;
+}
+.banner_change h3{
+  color:#fff;
+}
+.banner_sada h3{
+  color:#fff;
+}
+/* ========================== banner_pic page end ============================================== */
+
+
+
+/* ========================== banner-pic2 page start ============================================== */
+.banner_imtax_img h6{
+  color: var(--secondary-color);
+  font-size: 18px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.banner_imtax_img p{
+  color: var(--secondary-color);
+  font-size: 14px;
+  margin-top: 10px;
+  font-family: "Yu Gothic Medium";
+  position: relative;
+  padding-left: 30px;
+}
+
+.banner_imtax_img p::after {
+	position: absolute;
+	content: '';
+	left: 0;
+	top: 7px;
+	background: var(--secondary-color);
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+
+.banner_imtax_img a{
+  color: var(--secondary-color);
+  background: skyblue;
+  color:#000;
+  font-size: 18px;
+  margin-top: 15px;
+}
+.banner_imtax_img i {
+	margin-left: 8px;
+	font-size: 14px;
+  color: var(--secondary-color);
+}
+.banner_imtax_text h3{
+  font-size: 18px;
+  color:var(--secondary-color);
+  margin-top: 10px;
+}
+.banner_imtax_text p{
+  color: var(--secondary-color);
+  font-size: 14px;
+  margin-top: 10px;
+  font-family: "Yu Gothic Medium";
+}
+.banner_imtax_text h6 {
+	color: var(--secondary-color);
+	font-size: 18px;
+	margin-top: 30px;
+}
+.banner_imtax_text h2 span{
+  color:#888;
+}
+/* ========================== banner-pic2 page end ============================================== */
+
+
+
+/* ========================== banner-pic2 page end ============================================== */
+.banner3_imtax_top{
+  margin-top: 60px;
+}
+.banner3_a i{
+  font-size: 18px;
+  color:var(--secondary-color);
+  margin-left: 10px;
+}
+/* ========================== banner-pic2 page end ============================================== */
+
+
+
+
+
+/* ========================== prodcut_page_part page start ============================================== */
+#product_page_part{
+  padding: 180px 0 40px;
+  background: #fff5f6;;
+}
+.product_page_img img{
+  width: 100%;
+}
+.product_page_text h5{
+  font-size: 20px;
+  color: var(--secondary-color);
+}
+.product_page_text h2{
+  font-size: 40px;
+  color: var(--secondary-color);
+  margin: 10px 0 30px;
+}
+.product_page_main{
+  margin-top: 50px;
+}
+.product_page_end_text h4{
+  font-size: 18px;
+  margin:10px 0 25px;
+  color:var(--secondary-color);
+}
+.product_page_end_text p{
+  font-size: 18px;
+  color:var(--border1-color);
+  font-family: "Yu Gothic Medium";
+}
+.product_page_top{
+  margin-top: 30px;
+}
+/* ========================== prodcut_page_part page end ============================================== */
+
+
+
+
